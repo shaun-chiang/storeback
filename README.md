@@ -11,11 +11,11 @@ pip install -r requirements.txt
 
 Start mongodb and set env var:
 ```
-docker-compose up
 export MONGO_URL=mongodb://0.0.0.0:27017/
+docker-compose up
 ```
 
-Run application:
+Run application at `localhost:5000`:
 ```
 cd app
 flask run
