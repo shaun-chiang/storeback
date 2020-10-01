@@ -96,3 +96,4 @@ Responses:
   "error": "item not found"
 }
 ```
+- Responses are all in JSON.
