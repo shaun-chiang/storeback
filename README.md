@@ -22,6 +22,7 @@ flask run
 ```
 
 ## Endpoints
+- READ list of all items in the store
 ```
 GET /items
 Description: Returns list of items.
@@ -35,7 +36,7 @@ Responses:
   }
 ]
 ```
-
+- CREATE an item in the store
 ```
 POST /items
 Description: Creates an item as specified in body.
@@ -58,6 +59,7 @@ Responses:
   "error": "{'price': ['Not a valid number.']}"
 }
 ```
+- UPDATE an item in the store
 ```
 PUT /items/<id>
 Description: Updates item at specified id.
@@ -83,6 +85,7 @@ Responses:
   "error": "{'price': ['Not a valid number.']}"
 }
 ```
+- DELETE an item in the store
 ```
 DELETE /items/<id>
 Description: Deletes item at specified id.
