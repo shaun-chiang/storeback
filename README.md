@@ -1,5 +1,5 @@
 # Storeback
-Demo for a simple CRUD Flask backend for a store.
+Demo for a simple CRUD Flask backend for a store, companion backend for [Storefront](https://github.com/shaun-chiang/storefront)
 
 ## Setup
 Activate venv:
